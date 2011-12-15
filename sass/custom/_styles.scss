@@ -1,2 +1,26 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+table.grid {
+	font: 12px/170% 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Sans-Serif;
+	color: #666666; 
+	border-collapse: collapse;
+	margin: 10px 20px;		
+}
+table.grid tr { background: #FFF; }
+table.grid tr.altrow { background: #F9F9F9;	}
+table.grid th, 
+table.grid td {
+	text-align: left;			
+	border-width: 1px;
+  	/*border-style: solid;*/
+}
+table.grid th {
+	color: #555;
+	background: #F0FBFF; 
+	padding: .8em 1em;	
+	border-color: #D8EBF5 #D8EBF5 #B9DBEE #D8EBF5;	
+}
+table.grid td {
+	border-color: #EFEFEF;	
+	padding: .7em 1em;	
+}
